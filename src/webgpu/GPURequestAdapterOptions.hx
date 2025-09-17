@@ -1,5 +1,7 @@
 package webgpu;
 
+import webgpu.WebgpuTypeDefs;
+
 extern interface GPURequestAdapterOptions {
 	/**
 	 * "Feature level" for the adapter request.

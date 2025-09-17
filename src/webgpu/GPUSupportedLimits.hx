@@ -4,7 +4,7 @@ extern interface GPUSupportedLimits {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUSupportedLimits";
+	var __brand(default, null):GPUSupportedLimits;
 
 	var maxTextureDimension1D(default, null):Float;
 	var maxTextureDimension2D(default, null):Float;

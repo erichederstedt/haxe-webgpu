@@ -4,7 +4,7 @@ extern interface GPUAdapterInfo {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUAdapterInfo";
+	var __brand(default, null):GPUAdapterInfo;
 
 	var vendor(default, null):String;
 	var architecture(default, null):String;

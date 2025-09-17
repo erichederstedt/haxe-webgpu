@@ -1,10 +1,13 @@
 package webgpu;
 
+import js.lib.Promise;
+import webgpu.WebgpuTypeDefs;
+
 extern interface GPUAdapter {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUAdapter";
+	var __brand(default, null):GPUAdapter;
 
 	var features(default, null):GPUSupportedFeatures;
 	var limits(default, null):GPUSupportedLimits;

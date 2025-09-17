@@ -1,5 +1,7 @@
 package webgpu;
 
+import webgpu.WebgpuTypeDefs;
+
 extern interface GPUDeviceDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * Specifies the features that are required by the device request.
@@ -20,5 +22,5 @@ extern interface GPUDeviceDescriptor extends GPUObjectDescriptorBase {
 	 * reference to WebIDL spec). Or change the entire type to `any` and add back a `dictionary
 	 * GPULimits` and define the conversion of the whole object by reference to WebIDL. -->
 	 */
-	@:optional var requiredLimits:haxe.extern.EitherType<Record<String>, haxe.extern.EitherType<GPUSize64, {}>>;
+	@:optional var requiredLimits:haxe.extern.EitherType<haxe.DynamicAccess<String>, haxe.extern.EitherType<GPUSize64, {}>>;
 }

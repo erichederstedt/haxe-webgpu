@@ -1,6 +1,7 @@
 package webgpu;
 
-typedef WGSLLanguageFeatures = Array<String>;
+import js.lib.Promise;
+import webgpu.WebgpuTypeDefs;
 
 extern interface GPU {
 	/**
