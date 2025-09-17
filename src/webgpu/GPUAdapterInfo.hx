@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUAdapterInfo {
+extern class GPUAdapterInfo {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */

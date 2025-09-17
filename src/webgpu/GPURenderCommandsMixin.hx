@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderCommandsMixin {
+extern class GPURenderCommandsMixin {
 	/**
 	 * Sets the current {@link GPURenderPipeline}.
 	 */

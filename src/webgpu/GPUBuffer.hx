@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUBuffer extends GPUObjectBase {
+extern class GPUBuffer extends GPUObjectBase {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUBuffer";
+	var __brand(default, null):GPUBuffer;
 
 	var size(default, null):GPUSize64Out;
 	var usage(default, null):GPUFlagsConstant;

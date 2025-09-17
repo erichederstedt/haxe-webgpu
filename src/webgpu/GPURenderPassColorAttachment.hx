@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderPassColorAttachment {
+extern class GPURenderPassColorAttachment {
 	/**
 	 * Describes the texture subresource that will be output to for this color attachment.
 	 * The subresource is determined by calling [$get as texture view$]({@link GPURenderPassColorAttachment#view}).

@@ -1,3 +1,3 @@
 package webgpu;
 
-extern interface WorkerNavigator extends NavigatorGPU {}
+extern class WorkerNavigator extends NavigatorGPU {}

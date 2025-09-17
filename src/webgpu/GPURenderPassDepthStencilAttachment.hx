@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderPassDepthStencilAttachment {
+extern class GPURenderPassDepthStencilAttachment {
 	/**
 	 * Describes the texture subresource that will be output to and read from for this
 	 * depth/stencil attachment.

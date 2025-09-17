@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBufferBinding {
+extern class GPUBufferBinding {
 	/**
 	 * The {@link GPUBuffer} to bind.
 	 */

@@ -1,6 +1,16 @@
 package webgpu;
 
-extern interface GPUDevice extends EventTarget extends GPUObjectBase {
+import js.html.Event;
+import js.html.EventTarget;
+import js.lib.Promise;
+import webgpu.WebgpuTypeDefs;
+
+extern class GPUDevice extends EventTarget {
+	// From GPUObjectBase as multiple inheritence does not exist in haxe.
+	public var label:String;
+
+	// Rest is regular GPUDevice stuff
+
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
@@ -18,7 +28,7 @@ extern interface GPUDevice extends EventTarget extends GPUObjectBase {
 	 */
 	var lost(default, null):Promise<GPUDeviceLostInfo>;
 
-	var onuncapturederror:EventHandler;
+	var onuncapturederror:(event:Event) -> Void;
 
 	function addEventListener<K>(type:K, listener:GPUDevice->Array<__GPUDeviceEventMap>->Dynamic):Void;
 

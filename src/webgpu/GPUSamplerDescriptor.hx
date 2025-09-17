@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUSamplerDescriptor extends GPUObjectDescriptorBase {
+extern class GPUSamplerDescriptor extends GPUObjectDescriptorBase {
 	@:optional var addressModeU:GPUAddressMode;
 	@:optional var addressModeV:GPUAddressMode;
 

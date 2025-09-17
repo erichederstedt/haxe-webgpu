@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBindingCommandsMixin {
+extern class GPUBindingCommandsMixin {
 	/**
 	 * Sets the current {@link GPUBindGroup} for the given index.
 	 */

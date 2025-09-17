@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderPassTimestampWrites {
+extern class GPURenderPassTimestampWrites {
 	/**
 	 * The {@link GPUQuerySet}, of type {@link GPUQueryType} `"timestamp"`, that the query results will be
 	 * written to.

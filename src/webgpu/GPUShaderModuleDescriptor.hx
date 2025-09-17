@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUShaderModuleDescriptor extends GPUObjectDescriptorBase {
+extern class GPUShaderModuleDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The <a href="https://gpuweb.github.io/gpuweb/wgsl/">WGSL</a> source code for the shader
 	 * module.

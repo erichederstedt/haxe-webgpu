@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBlendComponent {
+extern class GPUBlendComponent {
 	/**
 	 * Defines the {@link GPUBlendOperation} used to calculate the values written to the target
 	 * attachment components.

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUDepthStencilState {
+extern class GPUDepthStencilState {
 	/**
 	 * The {@link GPUTextureViewDescriptor#format} of {@link GPURenderPassDescriptor#depthStencilAttachment}
 	 * this {@link GPURenderPipeline} will be compatible with.

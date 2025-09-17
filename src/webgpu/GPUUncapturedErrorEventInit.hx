@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface GPUUncapturedErrorEventInit extends EventInit {
+extern class GPUUncapturedErrorEventInit extends EventInit {
 	var error:GPUError;
 }

@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface __GPUDeviceEventMap {
+extern class __GPUDeviceEventMap {
 	var uncapturederror:GPUUncapturedErrorEvent;
 }

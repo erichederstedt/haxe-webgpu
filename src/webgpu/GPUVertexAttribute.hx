@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUVertexAttribute {
+extern class GPUVertexAttribute {
 	/**
 	 * The {@link GPUVertexFormat} of the attribute.
 	 */

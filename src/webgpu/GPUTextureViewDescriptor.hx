@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTextureViewDescriptor extends GPUObjectDescriptorBase {
+extern class GPUTextureViewDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The format of the texture view. Must be either the {@link GPUTextureDescriptor#format} of the
 	 * texture or one of the {@link GPUTextureDescriptor#viewFormats} specified during its creation.

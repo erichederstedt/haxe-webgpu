@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUMultisampleState {
+extern class GPUMultisampleState {
 	/**
 	 * Number of samples per pixel. This {@link GPURenderPipeline} will be compatible only
 	 * with attachment textures ({@link GPURenderPassDescriptor#colorAttachments}

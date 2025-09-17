@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUObjectDescriptorBase {
+extern class GPUObjectDescriptorBase {
 	/**
 	 * The initial value of {@link GPUObjectBase#label | GPUObjectBase.label}.
 	 */

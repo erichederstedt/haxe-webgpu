@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUCompilationMessage {
+extern class GPUCompilationMessage {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUCompilationMessage";
+	var __brand(default, null):GPUCompilationMessage;
 
 	var message(default, null):String;
 	var type(default, null):GPUCompilationMessageType;

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUStorageTextureBindingLayout {
+extern class GPUStorageTextureBindingLayout {
 	/**
 	 * The access mode for this binding, indicating readability and writability.
 	 */

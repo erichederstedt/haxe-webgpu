@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUCanvasContext {
+extern class GPUCanvasContext {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUCanvasContext";
+	var __brand(default, null):GPUCanvasContext;
 
 	var canvas(default, null):haxe.extern.EitherType<, haxe.extern.EitherType<HTMLCanvasElement, OffscreenCanvas>>;
 

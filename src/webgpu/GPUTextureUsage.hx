@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTextureUsage {
+extern class GPUTextureUsage {
 	var COPY_SRC(default, null):GPUFlagsConstant;
 	var COPY_DST(default, null):GPUFlagsConstant;
 	var TEXTURE_BINDING(default, null):GPUFlagsConstant;

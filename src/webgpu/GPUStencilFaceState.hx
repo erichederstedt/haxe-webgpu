@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUStencilFaceState {
+extern class GPUStencilFaceState {
 	/**
 	 * The {@link GPUCompareFunction} used when testing the RenderState.`[[stencilReference]]` value
 	 * against the fragment's {@link GPURenderPassDescriptor#depthStencilAttachment} stencil values.

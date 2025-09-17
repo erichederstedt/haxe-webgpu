@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUCopyExternalImageDestInfo extends GPUTexelCopyTextureInfo {
+extern class GPUCopyExternalImageDestInfo extends GPUTexelCopyTextureInfo {
 	/**
 	 * Describes the color space and encoding used to encode data into the destination texture.
 	 * This {@link https://www.w3.org/TR/webgpu/#color-space-conversions | may result} in values outside of the range [0, 1]

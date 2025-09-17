@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUTexture extends GPUObjectBase {
+extern class GPUTexture extends GPUObjectBase {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUTexture";
+	var __brand(default, null):GPUTexture;
 
 	var width(default, null):GPUIntegerCoordinateOut;
 	var height(default, null):GPUIntegerCoordinateOut;

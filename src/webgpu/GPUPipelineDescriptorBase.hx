@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUPipelineDescriptorBase extends GPUObjectDescriptorBase {
+extern class GPUPipelineDescriptorBase extends GPUObjectDescriptorBase {
 	/**
 	 * The {@link GPUPipelineLayout} for this pipeline, or {@link GPUAutoLayoutMode} `"auto"` to generate
 	 * the pipeline layout automatically.

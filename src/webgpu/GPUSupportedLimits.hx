@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUSupportedLimits {
+extern class GPUSupportedLimits {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */

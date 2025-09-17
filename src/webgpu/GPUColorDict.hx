@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUColorDict {
+extern class GPUColorDict {
 	/**
 	 * The red channel value.
 	 */

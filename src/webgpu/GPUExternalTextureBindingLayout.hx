@@ -1,3 +1,3 @@
 package webgpu;
 
-extern interface GPUExternalTextureBindingLayout {}
+extern class GPUExternalTextureBindingLayout {}

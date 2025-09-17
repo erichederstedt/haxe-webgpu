@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUCanvasConfiguration {
+extern class GPUCanvasConfiguration {
 	/**
 	 * The {@link GPUDevice} that textures returned by {@link GPUCanvasContext#getCurrentTexture} will be
 	 * compatible with.

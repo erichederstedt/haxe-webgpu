@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTexelCopyBufferLayout {
+extern class GPUTexelCopyBufferLayout {
 	/**
 	 * The offset, in bytes, from the beginning of the texel data source (such as a
 	 * {@link GPUTexelCopyBufferInfo#buffer | GPUTexelCopyBufferInfo.buffer}) to the start of the texel data

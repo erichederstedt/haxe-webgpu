@@ -1,8 +1,8 @@
 package webgpu;
 
-extern interface GPUInternalError extends GPUError {
+extern class GPUInternalError extends GPUError {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUInternalError";
+	var __brand(default, null):GPUInternalError;
 }

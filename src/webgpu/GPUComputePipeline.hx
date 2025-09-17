@@ -1,8 +1,8 @@
 package webgpu;
 
-extern interface GPUComputePipeline extends GPUObjectBase extends GPUPipelineBase {
+extern class GPUComputePipeline extends GPUObjectBase extends GPUPipelineBase {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUComputePipeline";
+	var __brand(default, null):GPUComputePipeline;
 }

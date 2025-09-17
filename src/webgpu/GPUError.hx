@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface GPUError {
+extern class GPUError {
 	var message(default, null):String;
 }

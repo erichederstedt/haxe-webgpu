@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUDebugCommandsMixin {
+extern class GPUDebugCommandsMixin {
 	/**
 	 * Begins a labeled debug group containing subsequent commands.
 	 */

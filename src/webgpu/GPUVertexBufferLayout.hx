@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUVertexBufferLayout {
+extern class GPUVertexBufferLayout {
 	/**
 	 * The stride, in bytes, between elements of this array.
 	 */

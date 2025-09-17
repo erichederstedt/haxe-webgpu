@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderPassDescriptor extends GPUObjectDescriptorBase {
+extern class GPURenderPassDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The set of {@link GPURenderPassColorAttachment} values in this sequence defines which
 	 * color attachments will be output to when executing this render pass.

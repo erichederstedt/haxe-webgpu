@@ -1,5 +1,62 @@
 package webgpu;
 
+// haxe.extern.EitherType
+import js.html.ImageBitmap;
+import js.html.ImageData;
+import js.html.ImageElement;
+import js.lib.BufferSource;
+import js.lib.SharedArrayBuffer;
+
+typedef EventHandler<T> = T->Void;
+extern class VideoFrame {}
+
+// Under this is a collection of typedefs skipped by the index.d.ts file.
+
+typedef GPUCommandBufferDescriptor = GPUObjectDescriptorBase;
+typedef GPUCommandEncoderDescriptor = GPUObjectDescriptorBase;
+typedef GPUAllowSharedBufferSource = haxe.extern.EitherType<BufferSource, SharedArrayBuffer>;
+
+/** @deprecated Use {@link GPUTexelCopyBufferLayout} */
+typedef GPUImageDataLayout = GPUTexelCopyBufferLayout;
+
+/** @deprecated Use {@link GPUTexelCopyBufferInfo} */
+typedef GPUImageCopyBuffer = GPUTexelCopyBufferInfo;
+
+/** @deprecated Use {@link GPUTexelCopyTextureInfo} */
+typedef GPUImageCopyTexture = GPUTexelCopyTextureInfo;
+
+/** @deprecated Use {@link GPUCopyExternalImageDestInfo} */
+typedef GPUImageCopyTextureTagged = GPUCopyExternalImageDestInfo;
+
+/** @deprecated Use {@link GPUCopyExternalImageSourceInfo} */
+typedef GPUImageCopyExternalImage = GPUCopyExternalImageSourceInfo;
+
+/** @deprecated Use {@link GPUCopyExternalImageSource} */
+typedef GPUImageCopyExternalImageSource = GPUCopyExternalImageSource;
+
+typedef GPUBindingResource = haxe.extern.EitherType<GPUSampler,
+	haxe.extern.EitherType<GPUTexture,
+		haxe.extern.EitherType<GPUTextureView, haxe.extern.EitherType<GPUBuffer, haxe.extern.EitherType<GPUBufferBinding, GPUExternalTexture>>>>>;
+
+typedef GPUBufferDynamicOffset = Int;
+typedef GPUBufferUsageFlags = Int;
+typedef GPUColor = haxe.extern.EitherType<Iterable<Int>, GPUColorDict>;
+typedef GPUColorWriteFlags = Int;
+
+typedef GPUCopyExternalImageSource = haxe.extern.EitherType<ImageBitmap,
+	haxe.extern.EitherType<ImageData,
+		haxe.extern.EitherType<ImageElement,
+			haxe.extern.EitherType<HTMLVideoElement, haxe.extern.EitherType<VideoFrame, haxe.extern.EitherType<HTMLCanvasElement, OffscreenCanvas>>>>>>;
+
+typedef GPUDepthBias = Int;
+typedef GPUExtent3D = haxe.extern.EitherType<Iterable<GPUIntegerCoordinate>, GPUExtent3DDict>;
+typedef GPUFlagsConstant = Int;
+typedef GPUIndex32 = Int;
+typedef GPUIntegerCoordinate = Int;
+typedef GPUIntegerCoordinateOut = Int;
+typedef GPUMapModeFlags = Int;
+typedef GPUOrigin2D = haxe.extern.EitherType<Iterable<GPUIntegerCoordinate>, GPUOrigin2DDict>;
+typedef GPUOrigin3D = haxe.extern.EitherType<Iterable<GPUIntegerCoordinate>, GPUOrigin3DDict>;
 typedef WGSLLanguageFeatures = Array<String>;
 typedef GPUSupportedFeatures = Array<String>;
 typedef GPUPipelineConstantValue = Int;

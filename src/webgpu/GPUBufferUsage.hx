@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBufferUsage {
+extern class GPUBufferUsage {
 	var MAP_READ(default, null):GPUFlagsConstant;
 	var MAP_WRITE(default, null):GPUFlagsConstant;
 	var COPY_SRC(default, null):GPUFlagsConstant;

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUCanvasConfigurationOut extends Required<Omit<GPUCanvasConfiguration, "toneMapping">> {
+extern class GPUCanvasConfigurationOut extends Required<Omit<GPUCanvasConfiguration, "toneMapping">> {
 	/**
 	 * {@inheritDoc GPUCanvasConfiguration.viewFormats} 
 	 */

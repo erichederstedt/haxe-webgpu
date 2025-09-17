@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUSamplerBindingLayout {
+extern class GPUSamplerBindingLayout {
 	/**
 	 * Indicates the required type of a sampler bound to this bindings.
 	 */

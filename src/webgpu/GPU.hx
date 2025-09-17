@@ -3,7 +3,7 @@ package webgpu;
 import js.lib.Promise;
 import webgpu.WebgpuTypeDefs;
 
-extern interface GPU {
+extern class GPU {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */

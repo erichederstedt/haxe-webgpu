@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBufferBindingLayout {
+extern class GPUBufferBindingLayout {
 	/**
 	 * Indicates the type required for buffers bound to this bindings.
 	 */

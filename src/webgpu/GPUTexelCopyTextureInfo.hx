@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTexelCopyTextureInfo {
+extern class GPUTexelCopyTextureInfo {
 	/**
 	 * Texture to copy to/from.
 	 */

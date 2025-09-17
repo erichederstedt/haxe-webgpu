@@ -1,3 +1,3 @@
 package webgpu;
 
-extern interface HTMLVideoElement {}
+extern class HTMLVideoElement {}

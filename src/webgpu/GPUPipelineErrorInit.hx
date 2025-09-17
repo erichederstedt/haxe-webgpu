@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface GPUPipelineErrorInit {
+extern class GPUPipelineErrorInit {
 	var reason:GPUPipelineErrorReason;
 }

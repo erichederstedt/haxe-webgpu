@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUCopyExternalImageSourceInfo {
+extern class GPUCopyExternalImageSourceInfo {
 	/**
 	 * The source of the texel copy. The copy source data is captured at the moment that
 	 * {@link GPUQueue#copyExternalImageToTexture} is issued. Source size is determined as described

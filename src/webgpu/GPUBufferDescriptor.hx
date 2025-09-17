@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBufferDescriptor extends GPUObjectDescriptorBase {
+extern class GPUBufferDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The size of the buffer in bytes.
 	 */

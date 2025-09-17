@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBlendState {
+extern class GPUBlendState {
 	/**
 	 * Defines the blending behavior of the corresponding render target for color channels.
 	 */

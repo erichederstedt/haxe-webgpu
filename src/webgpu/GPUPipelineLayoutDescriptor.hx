@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUPipelineLayoutDescriptor extends GPUObjectDescriptorBase {
+extern class GPUPipelineLayoutDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * A list of optional {@link GPUBindGroupLayout}s the pipeline will use. Each element corresponds
 	 * to a @group attribute in the {@link GPUShaderModule}, with the `N`th element corresponding

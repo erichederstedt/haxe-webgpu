@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUComputePassEncoder extends GPUObjectBase extends GPUCommandsMixin extends GPUDebugCommandsMixin extends GPUBindingCommandsMixin {
+extern class GPUComputePassEncoder extends GPUObjectBase extends GPUCommandsMixin extends GPUDebugCommandsMixin extends GPUBindingCommandsMixin {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUComputePassEncoder";
+	var __brand(default, null):GPUComputePassEncoder;
 
 	/**
 	 * Sets the current {@link GPUComputePipeline}.

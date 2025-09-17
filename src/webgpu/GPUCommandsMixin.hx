@@ -1,3 +1,3 @@
 package webgpu;
 
-extern interface GPUCommandsMixin {}
+extern class GPUCommandsMixin {}

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUProgrammableStage {
+extern class GPUProgrammableStage {
 	/**
 	 * The {@link GPUShaderModule} containing the code that this programmable stage will execute.
 	 */

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBindGroupLayoutEntry {
+extern class GPUBindGroupLayoutEntry {
 	/**
 	 * A unique identifier for a resource binding within the {@link GPUBindGroupLayout}, corresponding
 	 * to a {@link GPUBindGroupEntry#binding | GPUBindGroupEntry.binding} and a @binding

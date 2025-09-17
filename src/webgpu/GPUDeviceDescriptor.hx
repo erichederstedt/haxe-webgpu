@@ -2,7 +2,7 @@ package webgpu;
 
 import webgpu.WebgpuTypeDefs;
 
-extern interface GPUDeviceDescriptor extends GPUObjectDescriptorBase {
+extern class GPUDeviceDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * Specifies the features that are required by the device request.
 	 * The request will fail if the adapter cannot provide these features.

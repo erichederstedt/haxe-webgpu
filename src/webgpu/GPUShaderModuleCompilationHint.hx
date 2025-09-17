@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUShaderModuleCompilationHint {
+extern class GPUShaderModuleCompilationHint {
 	var entryPoint:String;
 
 	/**

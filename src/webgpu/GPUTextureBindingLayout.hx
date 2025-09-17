@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTextureBindingLayout {
+extern class GPUTextureBindingLayout {
 	/**
 	 * Indicates the type required for texture views bound to this binding.
 	 */

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUBindGroupDescriptor extends GPUObjectDescriptorBase {
+extern class GPUBindGroupDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The {@link GPUBindGroupLayout} the entries of this bind group will conform to.
 	 */

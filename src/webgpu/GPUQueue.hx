@@ -1,10 +1,10 @@
 package webgpu;
 
-extern interface GPUQueue extends GPUObjectBase {
+extern class GPUQueue extends GPUObjectBase {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPUQueue";
+	var __brand(default, null):GPUQueue;
 
 	/**
 	 * Schedules the execution of the command buffers by the GPU on this queue.

@@ -1,6 +1,8 @@
 package webgpu;
 
-extern interface GPUQuerySetDescriptor extends GPUObjectDescriptorBase {
+import webgpu.WebgpuTypeDefs;
+
+extern class GPUQuerySetDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The type of queries managed by {@link GPUQuerySet}.
 	 */

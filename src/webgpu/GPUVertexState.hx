@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUVertexState extends GPUProgrammableStage {
+extern class GPUVertexState extends GPUProgrammableStage {
 	/**
 	 * A list of {@link GPUVertexBufferLayout}s, each defining the layout of vertex attribute data in a
 	 * vertex buffer used by this pipeline.

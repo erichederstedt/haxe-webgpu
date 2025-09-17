@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface GPUObjectBase {
+extern class GPUObjectBase {
 	var label:String;
 }

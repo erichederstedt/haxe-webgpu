@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface GPUCanvasToneMapping {
+extern class GPUCanvasToneMapping {
 	@:optional var mode:GPUCanvasToneMappingMode;
 }

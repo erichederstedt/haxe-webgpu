@@ -1,5 +1,5 @@
 package webgpu;
 
-extern interface NavigatorGPU {
+extern class NavigatorGPU {
 	var gpu(default, null):GPU;
 }

@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUOrigin2DDict {
+extern class GPUOrigin2DDict {
 	@:optional var x:GPUIntegerCoordinate;
 	@:optional var y:GPUIntegerCoordinate;
 }

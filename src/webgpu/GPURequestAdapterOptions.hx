@@ -2,7 +2,7 @@ package webgpu;
 
 import webgpu.WebgpuTypeDefs;
 
-extern interface GPURequestAdapterOptions {
+extern class GPURequestAdapterOptions {
 	/**
 	 * "Feature level" for the adapter request.
 	 * The allowed <dfn dfn for="">feature level string</dfn> values are:

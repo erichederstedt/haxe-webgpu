@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUComputePipelineDescriptor extends GPUPipelineDescriptorBase {
+extern class GPUComputePipelineDescriptor extends GPUPipelineDescriptorBase {
 	/**
 	 * Describes the compute shader entry point of the pipeline.
 	 */

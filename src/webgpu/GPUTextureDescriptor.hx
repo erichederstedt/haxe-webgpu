@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUTextureDescriptor extends GPUObjectDescriptorBase {
+extern class GPUTextureDescriptor extends GPUObjectDescriptorBase {
 	/**
 	 * The width, height, and depth or layer count of the texture.
 	 */

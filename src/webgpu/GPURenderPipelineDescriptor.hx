@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPURenderPipelineDescriptor extends GPUPipelineDescriptorBase {
+extern class GPURenderPipelineDescriptor extends GPUPipelineDescriptorBase {
 	/**
 	 * Describes the vertex shader entry point of the pipeline and its input buffer layouts.
 	 */

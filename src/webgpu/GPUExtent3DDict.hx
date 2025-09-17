@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUExtent3DDict {
+extern class GPUExtent3DDict {
 	/**
 	 * The width of the extent.
 	 */

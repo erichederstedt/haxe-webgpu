@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUColorTargetState {
+extern class GPUColorTargetState {
 	/**
 	 * The {@link GPUTextureFormat} of this color target. The pipeline will only be compatible with
 	 * {@link GPURenderPassEncoder}s which use a {@link GPUTextureView} of this format in the

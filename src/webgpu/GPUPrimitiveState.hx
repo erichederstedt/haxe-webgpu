@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUPrimitiveState {
+extern class GPUPrimitiveState {
 	/**
 	 * The type of primitive to be constructed from the vertex inputs.
 	 */

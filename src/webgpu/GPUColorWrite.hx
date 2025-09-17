@@ -1,6 +1,6 @@
 package webgpu;
 
-extern interface GPUColorWrite {
+extern class GPUColorWrite {
 	var RED(default, null):GPUFlagsConstant;
 	var GREEN(default, null):GPUFlagsConstant;
 	var BLUE(default, null):GPUFlagsConstant;
