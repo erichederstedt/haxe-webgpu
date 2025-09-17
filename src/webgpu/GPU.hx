@@ -1,10 +1,12 @@
 package webgpu;
 
+typedef WGSLLanguageFeatures = Array<String>;
+
 extern interface GPU {
 	/**
 	 * @internal Workaround for [nominal typing](https://github.com/microsoft/TypeScript/pull/33038). 
 	 */
-	var __brand(default, null):"GPU";
+	var __brand(default, null):GPU;
 
 	var wgslLanguageFeatures(default, null):WGSLLanguageFeatures;
 
