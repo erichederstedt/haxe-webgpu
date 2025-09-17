@@ -1,0 +1,12 @@
+{
+  "name": "haxe-webgpu",
+  "url": "https://github.com/erichederstedt/haxe-webgpu",
+  "license": "MIT",
+  "version": "1.2.0",
+  "description": "Auto-generated WebGPU externs for Haxe.",
+  "releasenote": "",
+  "contributors": ["eric"],
+  "dependencies": {},
+  "tags": [],
+  "classPath": "src"
+}
