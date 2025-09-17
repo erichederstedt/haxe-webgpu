@@ -1,5 +1,5 @@
 package webgpu;
 
 extern interface HTMLCanvasElement {
-	function getContext(contextId:haxe.extern.EitherType<htmlcanvaselement.ContextId,>):GPUCanvasContext;
-	}
+	function getContext(contextId:haxe.extern.EitherType<htmlcanvaselement.ContextId, String>):GPUCanvasContext;
+}
