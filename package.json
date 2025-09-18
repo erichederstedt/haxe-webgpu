@@ -1,0 +1,26 @@
+{
+  "name": "haxe-webgpu",
+  "version": "1.0.0",
+  "description": "Auto-generated WebGPU externs for Haxe. Generated from the WebGPU/types typescript definition file using the refactor lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erichederstedt/haxe-webgpu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erichederstedt/haxe-webgpu/issues"
+  },
+  "homepage": "https://github.com/erichederstedt/haxe-webgpu#readme",
+  "dependencies": {
+    "ts-morph": "^27.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "type": "commonjs"
+}
