@@ -54,7 +54,8 @@ function parseInterfaceBody(
     for (let i = 0; i < properties.length; i++) {
         const element = properties[i];
         const name = element.getName();
-        const typeName = mapType(element.getType().getText());
+        const type = element.getType();
+        const typeName = type.isStringLiteral() ? "String" : mapType(element.getType().getText());
         // console.log('   Property: ' + name + ', kind: ' + typeName);
         output.text += "    public var " + name + ":" + typeName + ";\n";
     }
